@@ -14,12 +14,13 @@ body {
 /* btn componant */
 .main-btn {
   background-color: var(--red-color);
-  color: var(--yellow-color);
-  padding: 0.5rem 1rem;
+  color: var(--section-color);
+  padding: 0.5rem 1.5rem;
 }
 .main-btn:hover {
   background-color: #bc2238;
-  color: #ffc819ed;
+  /* color: #ffc819ed; */
+  color: var(--section-color);
 }
 .main-title::after {
   content: '';
